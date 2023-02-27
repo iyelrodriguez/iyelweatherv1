@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/iyelweatherv1/static/css/main.78d38c4b.css",
-    "main.js": "/iyelweatherv1/static/js/main.f34ea9f5.js",
-    "static/media/sunset.jpg": "/iyelweatherv1/static/media/sunset.ab19eb6fc568e5c0ff4d.jpg",
+    "main.css": "/iyelweatherv1/static/css/main.bb898fb7.css",
+    "main.js": "/iyelweatherv1/static/js/main.87e1e60f.js",
     "index.html": "/iyelweatherv1/index.html",
-    "main.78d38c4b.css.map": "/iyelweatherv1/static/css/main.78d38c4b.css.map",
-    "main.f34ea9f5.js.map": "/iyelweatherv1/static/js/main.f34ea9f5.js.map"
+    "main.bb898fb7.css.map": "/iyelweatherv1/static/css/main.bb898fb7.css.map",
+    "main.87e1e60f.js.map": "/iyelweatherv1/static/js/main.87e1e60f.js.map"
   },
   "entrypoints": [
-    "static/css/main.78d38c4b.css",
-    "static/js/main.f34ea9f5.js"
+    "static/css/main.bb898fb7.css",
+    "static/js/main.87e1e60f.js"
   ]
 }
