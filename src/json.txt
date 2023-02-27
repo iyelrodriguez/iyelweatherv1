@@ -1,0 +1,43 @@
+{
+    "coord": {
+        "lon": 120.9822,
+        "lat": 14.6042
+    },
+    "weather": [
+        {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 87.8,
+        "feels_like": 91.08,
+        "temp_min": 87.8,
+        "temp_max": 87.8,
+        "pressure": 1014,
+        "humidity": 51
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 17.27,
+        "deg": 80
+    },
+    "clouds": {
+        "all": 40
+    },
+    "dt": 1677480968,
+    "sys": {
+        "type": 1,
+        "id": 8160,
+        "country": "PH",
+        "sunrise": 1677449679,
+        "sunset": 1677492214
+    },
+    "timezone": 28800,
+    "id": 1701668,
+    "name": "Manila",
+    "cod": 200
+}
