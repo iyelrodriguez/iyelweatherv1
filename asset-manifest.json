@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/iyelweatherv1/static/css/main.78d38c4b.css",
+    "main.js": "/iyelweatherv1/static/js/main.f34ea9f5.js",
+    "static/media/sunset.jpg": "/iyelweatherv1/static/media/sunset.ab19eb6fc568e5c0ff4d.jpg",
+    "index.html": "/iyelweatherv1/index.html",
+    "main.78d38c4b.css.map": "/iyelweatherv1/static/css/main.78d38c4b.css.map",
+    "main.f34ea9f5.js.map": "/iyelweatherv1/static/js/main.f34ea9f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78d38c4b.css",
+    "static/js/main.f34ea9f5.js"
+  ]
+}
