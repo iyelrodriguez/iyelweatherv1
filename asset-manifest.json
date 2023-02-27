@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/iyelweatherv1/static/css/main.eca65fb8.css",
-    "main.js": "/iyelweatherv1/static/js/main.7825d813.js",
+    "main.js": "/iyelweatherv1/static/js/main.4a2b001c.js",
     "index.html": "/iyelweatherv1/index.html",
     "main.eca65fb8.css.map": "/iyelweatherv1/static/css/main.eca65fb8.css.map",
-    "main.7825d813.js.map": "/iyelweatherv1/static/js/main.7825d813.js.map"
+    "main.4a2b001c.js.map": "/iyelweatherv1/static/js/main.4a2b001c.js.map"
   },
   "entrypoints": [
     "static/css/main.eca65fb8.css",
-    "static/js/main.7825d813.js"
+    "static/js/main.4a2b001c.js"
   ]
 }
