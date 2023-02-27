@@ -4,7 +4,7 @@ import axios from 'axios'
 function App() {
   const [data, setData] = useState({})
   const [location, setLocation] = useState('')
-
+  const yearNow = new Date().getFullYear();
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&appid=895284fb2d2c50a520ea537456963d9c`
 
   const searchLocation = (event) => {
@@ -32,17 +32,16 @@ function App() {
       <div className="container">
         <div className="top">
           <div className="location">
-            <p>{data.name}</p>
+            <p>{data.name} , {data.sys.country}</p>
           </div>
           <div className="temp">
-            {data.main ? <h1>{data.main.temp.toFixed()}°F | {data.main.temp.toFixed()}°F</h1> : null}
+            {data.main ? <h1>{data.main.temp.toFixed()}°F </h1> : null}
           </div>
+          
           <div className="description">
             {data.weather ? <p>{data.weather[0].main}</p> : null}
           </div>
-          <div className="time">
-            {data.weather ? <p>{data.weather[0].main}</p> : null}
-          </div>
+       
         </div>
 
         {data.name !== undefined &&
@@ -61,7 +60,22 @@ function App() {
             </div>
           </div>
         }
-
+        
+      <div className='footer'>
+      <div className='app__desc'>Basic weather application using React, 
+            <a href="https://openweathermap.org/api" 
+            className="footer__social" rel="noreferrer"
+            target="_blank">{" "}Openweathermap{" "}</a>{" "}
+             and {""}
+            <a href="https://status.unsplash.com/" 
+            className="footer__social" rel="noreferrer"
+            target="_blank">{" "}Unsplash{" "}</a> . </div>
+          <span className='footer__copy'>  
+           
+            &#169;<a href="https://iyelrodriguez.github.io/web-react/" 
+            className="footer__social" rel="noreferrer"
+            target="_blank"> G.Rdrgz.</a> All rights reserved. {yearNow}</span>
+      </div>
 
 
       </div>
