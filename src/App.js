@@ -17,7 +17,7 @@ function App() {
     }
   }
 
-  let mytemp = ((data.main.temp - 32) * 0.5556).toFixed(2);
+  
 
   return (
     <div className="app">
@@ -35,15 +35,14 @@ function App() {
             <p>{data.name}</p>
           </div>
           <div className="temp">
-            {data.main ? <h1>{data.main.temp.toFixed(2)}°F</h1> : null}
-          </div>
-          <div className="temp">
-            {data.main ? <h1>{mytemp}°C</h1> : null}
+            {data.main ? <h1>{data.main.temp.toFixed()}°F | {data.main.temp.toFixed()}°F</h1> : null}
           </div>
           <div className="description">
             {data.weather ? <p>{data.weather[0].main}</p> : null}
           </div>
-          
+          <div className="time">
+            {data.weather ? <p>{data.weather[0].main}</p> : null}
+          </div>
         </div>
 
         {data.name !== undefined &&
