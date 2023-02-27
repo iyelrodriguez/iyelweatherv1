@@ -62,19 +62,19 @@ function App() {
         }
         
       <div className='footer'>
-      <div className='app__desc'>Basic weather application using React, 
+      <div className='app__desc'><center>Basic weather application using React, 
             <a href="https://openweathermap.org/api" 
             className="footer__social" rel="noreferrer"
             target="_blank">{" "}Openweathermap{" "}</a>{" "}
              and {""}
             <a href="https://status.unsplash.com/" 
             className="footer__social" rel="noreferrer"
-            target="_blank">{" "}Unsplash{" "}</a> . </div>
-          <span className='footer__copy'>  
+            target="_blank">{" "}Unsplash{" "}</a> .</center> </div>
+          <center><span className='footer__copy'>  
            
             &#169;<a href="https://iyelrodriguez.github.io/web-react/" 
             className="footer__social" rel="noreferrer"
-            target="_blank"> G.Rdrgz.</a> All rights reserved. {yearNow}</span>
+            target="_blank"> G.Rdrgz.</a> All rights reserved. {yearNow}</span></center>
       </div>
 
 

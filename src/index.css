@@ -60,7 +60,7 @@ h1 {
 }
 
 .container {
-  max-width: 700px;
+  
   height: 700px;
   margin: auto;
   padding: 0 1rem;
@@ -69,22 +69,29 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
 .app .top {
   width: 100%;
   margin: 1rem auto;
 }
 .footer__copy{
-  position: absolute;
-  top: 100%;
-  left: 35%;
-  opacity: .80;
+ 
 }
 .app__desc{
-  position: relative;
-  opacity: .80;
-  text-align: center;
+  
+}
+.footer{
+  width: initial;
+  text-color: #9cafa9;
 }
 .app .description {
   position: relative;
