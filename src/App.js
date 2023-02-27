@@ -32,10 +32,10 @@ function App() {
       <div className="container">
         <div className="top">
           <div className="location">
-            <p>{data.name},{data.sys.country}</p>
+            <p>{data.name} { data.main ? data.sys.country : null}</p>
           </div>
           <div className="temp">
-            {data.main ? <h1>{data.main.temp.toFixed()}°F </h1> : null}
+            {data.main ? <h1>{((data.main.temp - 32) *.5556).toFixed(2)}°C </h1> : null}
           </div>
           
           <div className="description">
